@@ -1,0 +1,105 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.price
+{
+    background: #000;
+    color: #fff6e2;
+    padding: 50px 0;
+}
+.price a
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 44px;
+    text-decoration: none;
+}
+.price a:hover
+{
+    text-decoration: none;
+    color:#000;
+    outline: none;
+}
+.price a button
+{
+    font-size: 20px;
+    background: none;
+    color: #e4292c;
+    border: none;
+    font-weight: bold;
+    outline: none;
+}
+.price h2
+{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 60px;
+    font-family: monospace;
+}
+.d {
+    background: #a90f11;
+    padding: 26px;
+}
+.d h3 {
+    font-size: 31px;
+    margin-bottom: 35px;
+}
+.d sup {
+    top: -2em;
+    font-size: 21px;
+}
+.d span {
+    font-size: 58px;
+}
+.d ul li {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+}
+.d button {
+    background: #042f4b;
+    border: 2px solid #042f4b;
+    border-radius: 3px;
+    color: #fff6e3;
+    padding: 3px 30px;
+    margin: 10px 0;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+}
+.d button:hover
+{
+    transform: scale(0.95);
+}
+.f {
+    background: #fff6e3;
+    color: #333;
+    padding: 16px;
+}
+.f ul {
+    line-height: 2;
+}
+.f ul li {
+    font-size: 17px;
+    margin: 5px;
+}
+@media(max-width:767px)
+{
+    .priceh2 {
+        text-align: center;
+        margin: 42px auto;
+        font-size: 60px;
+        width: 227px;
+        font-family: monospace;
+    }
+    .m {
+        margin: 20px;
+    }
+}

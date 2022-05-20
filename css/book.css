@@ -1,0 +1,93 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.myclass
+{
+
+padding: 50px;
+background: #000;
+}
+.hea
+{
+        display: flex;
+        justify-content: center;
+    
+}
+.hea h2
+{
+    color: #fff6e1;
+    margin: 50px;
+    font-size: 68px;
+    font-family: monospace;
+}
+.hea a
+{
+    height: 10px;
+}
+
+.hea button
+{
+    font-size: 20px;
+    background: none;
+    color: #e4292c;
+    border: none;
+    font-weight: bold;
+    outline: none;
+}
+.hea button:hover
+{
+    transform: scale(1.1);
+}
+
+.m{
+    text-align: center;
+    border: 2px solid #333;
+    padding: 0px 10px 17px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.im img {
+    width: 100%;
+}
+.m p {
+    color: #fff6e2;
+    margin: 20px;
+    font-size: 24px;
+}
+.m button {
+    background: #e4282c;
+    border: 2px solid #e4282c;
+    border-radius: 4px;
+    padding: 5px 18px;
+    font-size: 18px;
+    font-family: monospace;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+.m button:hover
+{
+    transform: scale(0.9);
+}
+@media(max-width:767px)
+{
+    .hea h2 {
+        color: #fff6e1;
+        margin: 50px 10px;
+        font-size: 53px;
+        letter-spacing: 3.5px;
+        font-family: monospace;
+    }
+    .m p {
+        color: #fff6e2;
+        margin: 20px;
+        font-size: 20px;
+    }
+}
